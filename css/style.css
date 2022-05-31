@@ -1,0 +1,198 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	border: 1px solid purple;
+	width: 90%;
+	margin: auto;
+}
+
+body{
+	font-family: "Helvetica";
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(#E21DD8, #8F3A8C);
+	position: relative;
+}
+
+.header .nav{
+	/*border: 1px solid #fff;*/
+	width: 18%;
+	position: absolute;
+	right: 20px; 
+	top: 55px;
+}
+
+.nav a{
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	display: inline-block;
+	padding: 10px;
+}
+
+.nav a:hover{
+	color: #E2E2E2;
+}
+
+.header form{
+	position: absolute;
+	left: 35%;
+	top: 55px;
+}
+
+.header input[type=text]{
+	width: 300px;
+	height: 35px;
+}
+
+.header input[type=submit]{
+	width: 100px;
+	height: 38px;
+	background-color: cyan;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	margin-left: -20px;
+}
+
+.header .logo{
+	position: relative;
+	left: 40px;
+	top: 40px;
+}
+
+.logo span a{
+	color: gold;
+	font-family: cursive;
+	font-size: 40px;
+	margin-right: 5px;
+}
+
+.logo h3{
+	color: #fff;
+	font-size: 30px;
+}
+
+.mini{
+	border: 1px solid purple;
+	width: 20%;
+}
+
+.mini .mini1{
+	width: 100%;
+	border: 1px solid purple;
+}
+
+.mini1 li{
+	border-bottom: 1px solid purple;
+}
+
+.mini li a{
+	color: purple;
+	font-weight: bolder;
+	font-size: 18px;
+	display: block;
+	padding: 10px 20px;
+}
+
+.mini1 li a:hover{
+	background-color: #8F3A8C;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.mini .mini2{
+	border: 1px solid purple;
+	margin-top: 5px;
+	width: 100%;
+	height: 200px;
+}
+
+.main{
+	width: 78.5%;
+	border: 1px solid purple;
+	margin-left: 5px;
+
+}
+
+.mini, .main{
+	float: left;
+}
+
+.product{
+	border: 1px solid purple;
+	width: 20%;
+	margin: 20px 15px;
+	height: 400px;
+	position: relative;
+	float: left;
+}
+
+.main img{
+	width: 100%;
+}
+
+.product .call-to-action{
+	background: linear-gradient(#E21DD8, #8F3A8C);
+	color: #fff;
+	padding: 10px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	bottom: 5px;
+}
+
+ .footer{
+ 	clear: both;
+ 	background: linear-gradient(#E21DDB, #8F3A8C);
+ 	position: relative;
+ 	height: 200px;
+ }
+
+ .footer .contact, .footer .socials, .footer .links{
+ 	border: 1px solid #fff;
+ 	width: 25%;
+ }
+
+ .footer .links{
+ 	position: absolute;
+ 	right: 20px;
+ 	top: 20px;	
+ }
+
+ .footer .socials{
+ 	position: absolute;
+ 	left: 37%;
+ 	top: 20px;
+ }
+
+ .footer .contact{
+ 	position: relative;
+ 	top: 20px;
+ 	left: 20px;
+ }
+
+ .footer li{
+ 	margin-bottom: 15px;
+ 	color: #fff;
+ }
+
+ .footer h3{
+ 	margin-bottom: 25px;
+ 	color: #f2f2f2;
+ }
